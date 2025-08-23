@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="perconnect" href="https://fonts.googleapis.com">
+    <link rel="perconnect" href="https://fonts.gstatic.com/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900,1,100;1,300;1,400;1,700;1,900&display=swap">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>Document</title>
     <link rel="stylesheet" href="mystyle.css">
 
@@ -10,47 +15,95 @@
 <body>
     <header class="contact-header">
         <div class="navigation-bar">
-            <h1>Real Estate</h1>
+        <h1>Real Estate</h1>
 
-                    <nav>
-                        <a href="about.html">About</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="contact.html">Contact</a>
-                    </nav>
-                    <p>We sell luury houses, condominuims, and penthouses</p>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+         </nav>
         </div>
-        
-     </header>
-     <main class="contact-contatiner">
+    </header>
+
+    <main class="container">
         <div class="contact-text">
             <h2>Contact</h2>
-            <p class="instuction"> Fill the next information</p>
+            <p class="instuction"> Fill the next information <i class="fa-solid fa-circle-info"></i> </p>
             <p class="instuction-details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, quae! Et eos, unde quaerat dolore reprehenderit sapiente nam minus ullam repellat, suscipit repudiandae nisi est aspernatur, ab similique animi vero?</p>
         </div>
-        <div>
-            <form action="">
+        <div class="contact-form">
+            <form class="form">
                 <fieldset>
                     <legend> Personal information</legend>
-                    <div>
+                    <div class="input-control">
                         <label for="">Name:</label>
                         <input type="text">
                     </div>
-                    <div>
+                    <div class="input-control">
                         <label for="">Emial:</label>
                         <input type="email">
                     </div>
-                    <div>
+                    <div class="input-control">
                         <label for="">Phone Number:</label>
                         <input type="number">
                     </div>
-                    <div>
+                    <div class="input-control">
                         <label for="">Message:</label>
                         <textarea name="" id=""></textarea>
                     </div>
                 </fieldset>
+                <fieldset>
+                    <legend>Product information</legend>
+                    <div class="input-control">
+                        <label>Type:</label>
+                        <select>
+                            <option value="op1">option 1</option>
+                            <option value="op2">option 2</option>
+                            <option value="op3">option 3</option>
+                            <option value="op4">option 4</option>
+                        </select>
+                    </div>
+                    <div class="input-control">
+                        <label for="">Number:</label>
+                        <input type="number">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Contact information</legend>
+                    
+                    <div class="input-control">
+                        <label>Type:</label>
+                        <input type="button" value="">
+                    </div>
+                    <div>
+
+                    </div>
+                </fieldset>
+                
             </form>
         </div>
-      
-     </main>
+    </main>
+    <footer>
+        <div class="footer-text container">
+            <div>
+                <p>Powered by <span class="text-bold">Zillow</span></p>
+            </div>
+            <div class="policy-info">
+                <p class="cr-text">Copyright &copy; 2025 </p>
+                <p class="text-bold">Privacy Policy</p>
+            </div>
+            <div class="sm-container">
+                <div class="sm-icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="sm-icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="sm-icon">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
