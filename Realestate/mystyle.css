@@ -19,7 +19,7 @@ img{
 /*utilities*/
 .container{
     width:80%;
-    margin-left: auto;
+    margin-left: 0 auto;
     margin-right: auto;
 }
 .flex-parent-between{
@@ -36,6 +36,12 @@ img{
     font-size: 12px;
     letter-spacing: 3px;
     text-align: center;
+}
+.item-number{
+
+}
+.item-container{
+    
 }
 /*header*/
 .init-header{
@@ -82,18 +88,20 @@ margin-right: 0px;
 .house-item{
     background-color: #dedede;
     margin-bottom: 20px;
-    border: 1p solid gray ;  
-    margin-right: 20px;  
+    border: 1px solid gray ;
+    margin-right: 20px;   
 }
 
 .btn-details{
     display: block;
-    background-color: rgb(133, 89, 9);
+    background-color: rgb(226, 149, 6);
     text-align: center;
     padding: 10px;
     margin: 10px;
 }
 .house-item-img{
+    padding: 20px;
+
 
 }
 .house-item-text{
@@ -104,6 +112,8 @@ margin-right: 0px;
 }
 .item-num{
     display: flex;
+    justify-content: center;
+    width: 30%;
 
 }
 /*contact*/
