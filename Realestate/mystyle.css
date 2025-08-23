@@ -19,8 +19,7 @@ img{
 /*utilities*/
 .container{
     width:80%;
-    margin-left: 0 auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 .flex-parent-between{
     display: flex;
@@ -36,12 +35,6 @@ img{
     font-size: 12px;
     letter-spacing: 3px;
     text-align: center;
-}
-.item-number{
-
-}
-.item-container{
-    
 }
 /*header*/
 .init-header{
@@ -101,8 +94,6 @@ margin-right: 0px;
 }
 .house-item-img{
     padding: 20px;
-
-
 }
 .house-item-text{
     padding: 20px;
@@ -114,32 +105,87 @@ margin-right: 0px;
     display: flex;
     justify-content: center;
     width: 30%;
-
 }
 /*contact*/
 
 .contact-header{
-    background-image: url(./img/header.jpg);
-    background-size: cover;
-    height: 300px;
-    color:orange;
-    text-align: center;
+    background-color: orange;
+    height: 200px;
 }
 .contact-header a{
     color: black;
 }
-.main-center{
-
-}
-.contact-container{
-
+.contact-text{
+    text-align: center;
 }
 .contact-text{
     text-align: center;
 }
 .instuction{
-
+    font-weight: 700;
 }
 .instuction-details{
-    
+    font-weight: 300;
+}
+.form{
+    background-color: #dedede;
+    padding: 20px;
+    border-radius: 10px;
+}
+fieldset{
+    border-radius: 10px;
+    border: 1p solid black;
+}
+legend{
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.input-control{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.input-control label{
+    width: 20%;
+}
+.input-control input{
+    width: 80%;
+}
+
+/*footr*/
+footer{
+  background-color: #dedede;
+  height: 150px;
+
+}
+.footer-text{
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-bold{
+  font-weight: 700;
+  text-decoration: underline;
+}
+.policy-info{
+  display: flex;
+}
+.cr-text{
+  border-right: 2px solid black;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+.sm-container{
+  display: flex;
+}
+.sm-icon{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  width: 20px;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right:10px ;
 }
